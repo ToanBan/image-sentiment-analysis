@@ -31,7 +31,7 @@
                 <a href="{{route('uploadimage')}}" class="text-decoration-none text-dark">
                     <div class="nav-item me-4">Upload Image</div>
                 </a>
-                <a href="#" class="text-decoration-none text-dark">
+                <a href="/results" class="text-decoration-none text-dark">
                     <div class="nav-item me-4">Sentiment Analysis Results</div>
                 </a>
                 <a href="/#about" class="text-decoration-none text-dark">
@@ -86,6 +86,8 @@
             </div>
         </nav>
     </div>
+
+    @yield('content');
 </body>
 
 </html>
