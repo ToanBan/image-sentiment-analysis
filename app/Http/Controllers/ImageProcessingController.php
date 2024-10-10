@@ -10,7 +10,7 @@ class ImageProcessingController extends Controller
 {
     public function historyanalyze(){
         $userId = Auth::id();
-        $data = ImageProcessing::where('user_id', $userId)->get();
+        $data = ImageProcessing::where('user_id', $userId)->latest()->get();
         return view('results_image', ['data' => $data]);
     }
 
