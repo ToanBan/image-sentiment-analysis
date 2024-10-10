@@ -2,9 +2,10 @@
 /node_modules
 /public/build
 /public/hot
-!public/storage
-!public/storage/analyze_image.py
+/public/storage
 /storage/*.key
+!storage/public/
+!storage/public/analyze_image.py
 /vendor
 .env
 .env.backup
