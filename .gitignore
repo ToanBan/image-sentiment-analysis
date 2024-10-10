@@ -4,7 +4,7 @@
 /public/hot
 /public/storage
 /storage/*.key
-!storage/app/public/analyze_image.py
+!storage/public/analyze_image.py
 /vendor
 .env
 .env.backup
